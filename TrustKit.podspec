@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://datatheorem.github.io/TrustKit/documentation/'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = 'Alban Diquet', 'Angela Chow', 'Eric Castro'
-  s.source       = { :git => "https://github.com/datatheorem/TrustKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Glow-Inc/TrustKit.git", :tag => "v#{s.version}-glow" }
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '10.0'
